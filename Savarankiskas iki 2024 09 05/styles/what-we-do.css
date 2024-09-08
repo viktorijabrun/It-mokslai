@@ -1,0 +1,48 @@
+section#what-we-do {
+    background-color: #fafafa;
+    padding: 80px 0;
+    
+    
+    
+    h4 {
+        color: var(--pilka-spalva);
+        font-weight: normal;
+        text-align: center;
+        
+        
+    }
+     h2 {
+        font-weight: bold;
+        /* width: 50%; */
+        text-align: center;
+        margin: 0 auto;
+        font-size: 30px;
+     }
+
+     .cards {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        
+        .card {
+            /* border: 1px solid black; */
+            width: 30%;
+            h3 {
+                color: var(--tamsi-spalva);
+            }
+            p {
+                color: var(--pilka-spalva);
+                line-height: 24px;
+            }
+            a {
+                color: #f3675f;
+                font-weight: 15;
+                i {
+                    padding-left: 12px;
+                    font-size: 12px;
+                    ;
+                }
+            }
+        }
+     }
+}

@@ -1,0 +1,78 @@
+section#our-projects {
+    padding: 80px 0px;
+
+    h4 {
+        color: var(--pilka-spalva);
+        font-weight: normal;
+        text-align: center;
+        
+    }
+     h2 {
+        font-weight: bold;
+        /* width: 50%; */
+        text-align: center;
+        margin: 0 auto;
+        font-size: 30px;
+     }
+     .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 80px 0px 30px;
+        
+
+        button {
+            background-color: #f8f9fa;
+            color: var(--pilka-spalva);
+            border: 0;
+            border-radius: 3px;
+            font-size: 16px;
+            padding: 0px 15px;
+            margin: 5px 3px;
+            
+            
+            
+        }
+        button:hover {
+            background-color: #1ce1ac;
+            color: white;
+            transition: color 300ms ease-in-out;
+        }
+     }
+
+
+     .grid-container {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 20px
+       ;
+       
+       img {
+        height: 256px;
+        width: 356px;
+        border-radius: 3px;
+
+       }
+       .card-body {
+        border-radius: 3px;
+        box-shadow: 1px 2px 10px rgb(239, 239, 239);
+        padding: 16px;
+        margin: 0 auto;
+
+        h5 {
+            margin: 0 auto;
+            font-size: 18px;
+            color: var(--tamsi-spalva);
+            font-weight: 20;
+
+        }
+        p {
+            margin: 0 auto;
+            font-size: 16px;
+            color: var(--pilka-spalva);
+        }
+        
+     }
+    }
+}

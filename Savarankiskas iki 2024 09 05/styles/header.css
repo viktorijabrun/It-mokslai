@@ -1,0 +1,93 @@
+header {
+ 
+    .nav-container {
+    box-shadow: 2px 2px 6px #ebebeb;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+
+       a {
+        display: inline-block;
+        color: var(--tamsi-spalva);
+        line-height: 24px;
+        margin-right: 40px;
+        transition: color 300ms ease-in-out;
+       } 
+
+
+       a:hover {
+        color: #1ce1ac;
+       }
+
+    }
+
+    section.hero .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        
+            img {
+                width: 100%;
+            }
+
+            .discount-box {
+                background-color: #f8f9fa;
+                border: 1px solid #e6e6e6;
+                padding: 0px 10px;
+                border-radius: 3px;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+            font-size: 60px;
+            padding-right: 40px;
+            line-height: 80px;
+            letter-spacing: 3px;
+            margin-bottom: 30px;
+            }
+            p.description {
+                line-height: 30px;
+                font-size: 18px;
+                color: #8d929b;
+            }
+
+            .green-rounded-btn {
+                background: rgb(30,226,173);
+                background: linear-gradient(90deg, rgba(30,226,173,1) 0%, rgba(137,240,213,1) 100%);
+                color: white;
+                border: 0;
+                border-radius: 30px;
+                padding: 5px 30px;
+                font-size: 16px;
+                }
+            .transparent-demo-btn {
+                border: none;
+                background-color: transparent;
+                color: var(--tamsi-spalva);
+                font-size: 16px;
+                padding: 5px 30px;
+
+            }
+        
+
+
+    
+
+    }  
+}
+
+.header-footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    img {
+        height: 38px;
+        width: 141px;}
+
+}

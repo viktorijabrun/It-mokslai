@@ -1,0 +1,32 @@
+.container {
+max-width: 500px; ;
+background-color: greenyellow;
+}
+
+/* .center-element {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+img {
+width: 200px;
+} */
+
+.box {
+width: 100px;
+height: 100px;
+background-color: rgb(208, 208, 83);
+border: 1px solid black;
+}
+
+positioning-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.last {
+    position: relative;
+    top: 20px;
+}
+

@@ -1,0 +1,77 @@
+#testimonial {
+    padding: 80px 0px 120px;
+    background-color: #fff0c4;
+
+    h4 {
+        color: var(--tamsi-spalva);
+        font-weight: normal;
+        text-align: center;
+        
+    }
+     h2 {
+        font-weight: bold;
+        /* width: 50%; */
+        text-align: center;
+        margin: 0 auto;
+        font-size: 30px;
+    }
+    p {
+        font-size: 16px;
+        color: var(--pilka-spalva);
+        text-align: center;
+    }
+    
+    
+    .clients {
+        display: flex;
+        
+
+
+
+    
+            .clients-card {
+                background-color: white;
+                border-radius: 4px;
+                padding: 24px;
+                margin: 15px;
+                box-shadow: 2px 2px 10px rgb(227, 224, 224);
+
+            
+                img {
+                border-radius: 100px;
+                width: 60px
+                }
+            
+                p {
+                    text-align: left;
+                    color: var(--pilka-spalva);
+                    margin: 0 auto;
+                }
+
+                h5 {
+                    font-size: 18px;
+                    padding: 8px;
+                    font-weight: normal;
+                    letter-spacing: 1px;
+                    line-break: 2px;
+                    margin: 10px auto 10px;
+                    
+                    
+
+
+                }
+                h6 {
+                    font-size: 16px;
+                    color: var(--tamsi-spalva);
+                    margin: 0 auto;
+                    letter-spacing: 1px;
+                    font-weight: normal;
+
+
+                }
+            }
+
+
+    }
+    
+}

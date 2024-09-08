@@ -1,0 +1,64 @@
+.dokumentas {
+    border: 1px solid black;
+    height: 297mm;
+    width: 210mm;
+    padding: 100px 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.seller {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.buyer { 
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: 300;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+td, th, table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-weight: 300;
+    
+}
+
+thead{
+    font-family: 'Courier New', Courier, monospace;
+  font-size: 10px;
+  
+   
+}
+tbody {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center;
+}

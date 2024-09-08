@@ -1,0 +1,57 @@
+:root {
+    --tamsi-spalva: #343a40;
+    --akcentuojama-spalva: #1ce1ac;
+    --pilka-spalva: #a8a3a1;
+}
+
+@font-face {
+font-family: "mano sriftas medium";
+src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-Medium.ttf") format("truetype");
+    }
+
+@font-face {
+font-family: "mano sriftas bold";
+src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-Bold.ttf") format("truetype");
+    }
+
+@font-face {
+font-family: "mano sriftas semibold ";
+src: url("../assets/fonts/Cerebri.Sans.Pro/CerebriSansPro-SemiBold.ttf") format("truetype");
+    }
+
+
+header {
+    margin: 0;
+    background-image: url(/bg/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: mano sriftas medium;
+    color: var(--tamsi-spalva)
+}
+.container {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+* {
+    font-family: "Mandali", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: var(--tamsi-spalva)
+}
+.text-accent {
+    color: var(--akcentuojama-spalva);
+}
+.text-dark {
+    color: #a8a3a1;
+}
+
+button {
+    cursor: pointer;
+}
