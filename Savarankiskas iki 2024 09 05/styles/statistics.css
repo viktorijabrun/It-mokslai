@@ -1,0 +1,25 @@
+#statistics {
+    background-color: #f8f9fa;
+    
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+   
+
+    h2 {
+        font-size: 40px;
+        font-weight: normal;
+        margin: 0px 0px 10px;
+
+    }
+    p {
+        font-size: 16px;
+        color: var(--pilka-spalva);
+        margin: 0;
+
+    }
+
+}
